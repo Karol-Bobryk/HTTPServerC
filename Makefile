@@ -1,2 +1,2 @@
 compile:
-	gcc *.c -o ./bin/main -lm; valgrind ./bin/main 
+	gcc *.c -o ./bin/main -lm; valgrind ./bin/main --track-origins=yes 
